@@ -7,7 +7,7 @@ app.use(express.json());
 
 app.use(
   cors({
-    origin: "http://localhost:3000", // Corrected by removing the trailing slash
+    origin: "'https://crud-appfrontend-9876.vercel.app'", // Corrected by removing the trailing slash
     methods: ["GET", "POST", "PUT", "DELETE"], // Allowed methods
     allowedHeaders: ["Content-Type", "Authorization"], // Allowed headers
   })
